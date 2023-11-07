@@ -7,13 +7,24 @@ import { ProductListComponent } from './product-list/product-list.component';
 import { ProductDetailComponent } from './product-detail/product-detail.component';
 import { DirectivesComponent } from './directives/directives.component';
 import { PipesComponent } from './pipes/pipes.component';
-import { ServicesComponent } from './services/services.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { HomeComponent } from './home/home.component';
 import { CategorieHommeComponent } from './categorie-homme/categorie-homme.component';
 import { CategorieFemmeComponent } from './categorie-femme/categorie-femme.component';
 import { CategorieEnfantComponent } from './categorie-enfant/categorie-enfant.component';
 import { ImagesComponent } from './images/images.component';
+import { InscriptionComponent } from './inscription/inscription.component';
+import { ConnexionComponent } from './connexion/connexion.component';
+import { SuppressionComponent } from './suppression/suppression.component';
+import { Navbar2Component } from './navbar2/navbar2.component';
+import { NavbarHommeComponent } from './navbar-homme/navbar-homme.component';
+import { VesteHommeComponent } from './veste-homme/veste-homme.component';
+import { PullHommeComponent } from './pull-homme/pull-homme.component';
+import { TeeShirtHommeComponent } from './tee-shirt-homme/tee-shirt-homme.component';
+import { ChemiseHommeComponent } from './chemise-homme/chemise-homme.component';
+
+
+
 
 
 @NgModule({
@@ -23,13 +34,23 @@ import { ImagesComponent } from './images/images.component';
     ProductDetailComponent,
     DirectivesComponent,
     PipesComponent,
-    ServicesComponent,
     NavbarComponent,
     HomeComponent,
     CategorieHommeComponent,
     CategorieFemmeComponent,
     CategorieEnfantComponent,
     ImagesComponent,
+    InscriptionComponent,
+    ConnexionComponent,
+    SuppressionComponent,
+    Navbar2Component,
+   
+    VesteHommeComponent,
+    PullHommeComponent,
+    TeeShirtHommeComponent,
+    NavbarHommeComponent,
+    ChemiseHommeComponent,
+    
     
   ],
   imports: [

@@ -1,11 +1,31 @@
-.megamenu-li {
-	position: static;
-}
-
-.megamenu {
-	position: absolute;
-	width: 100%;
-	left: 0;
-	right: 0;
-	padding: 15px;
-}
+/* Style de base pour la barre de navigation */
+nav {
+	background-color: rgb(91, 149, 235); /* Couleur de fond de la barre de navigation */
+	color: #fff; /* Couleur du texte */
+	padding: 30px; /* Espace intérieur */
+  }
+  
+  /* Styles pour la liste non ordonnée (ul) dans la barre de navigation */
+  nav ul {
+	list-style: none; /* Supprime les puces de la liste */
+	padding: 0;
+	margin: 0;
+	display: flex; /* Affiche les éléments en ligne */
+	justify-content: center; /* Centre les éléments horizontalement */
+  }
+  
+  /* Styles pour les liens (ancre) dans la barre de navigation */
+  nav a {
+	font-size:large;
+	text-decoration: none; /* Supprime le soulignement par défaut des liens */
+	color: #fff; /* Couleur du texte des liens */
+	margin: 0 60px; /* Marge entre les liens */
+	font-weight: bold; /* Texte en gras */
+	transition: color 0.2s; /* Transition de couleur lors du survol */
+  }
+  
+  /* Styles pour les liens au survol (hover) */
+  nav a:hover {
+	color:orange; /* Couleur différente au survol */
+  }
+  
