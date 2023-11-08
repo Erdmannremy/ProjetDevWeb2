@@ -17,6 +17,11 @@ import { PullEnfantComponent } from './Enfant/pull-enfant/pull-enfant.component'
 import { TeeShirtEnfantComponent } from './Enfant/tee-shirt-enfant/tee-shirt-enfant.component';
 import { ChemiseEnfantComponent } from './Enfant/chemise-enfant/chemise-enfant.component';
 import { PantalonEnfantComponent } from './Enfant/pantalon-enfant/pantalon-enfant.component';
+import { VesteFemmeComponent } from './Femme/veste-femme/veste-femme.component';
+import { PullFemmeComponent } from './Femme/pull-femme/pull-femme.component';
+import { TeeShirtFemmeComponent } from './Femme/tee-shirt-femme/tee-shirt-femme.component';
+import { ChemiseFemmeComponent } from './Femme/chemise-femme/chemise-femme.component';
+import { PantalonFemmeComponent } from './Femme/pantalon-femme/pantalon-femme.component';
 
 const routes: Routes = [
   {path: '',redirectTo: 'home', pathMatch: 'full'},
@@ -33,7 +38,12 @@ const routes: Routes = [
    {path:'tee-shirt-enfant',component:TeeShirtEnfantComponent},
    {path:'chemise-enfant',component:ChemiseEnfantComponent},
    {path:'pantalon-enfant',component:PantalonEnfantComponent}]},
-  {path: 'categorie-femme',component:CategorieFemmeComponent},
+   {path: 'categorie-femme',component:CategorieFemmeComponent,children:[
+   {path:'veste-femme',component:VesteFemmeComponent},
+   {path:'pull-femme',component:PullFemmeComponent},
+   {path:'tee-shirt-femme',component:TeeShirtFemmeComponent},
+   {path:'chemise-femme',component:ChemiseFemmeComponent},
+   {path:'pantalon-femme',component:PantalonFemmeComponent}]},
   
   
   
