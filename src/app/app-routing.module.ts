@@ -48,6 +48,7 @@ const routes: Routes = [
    {path:'chemise-femme',component:ChemiseFemmeComponent},
    {path:'pantalon-femme',component:PantalonFemmeComponent}]},
    {path:'promotion',component:PromotionComponent},
+   
   
   
   

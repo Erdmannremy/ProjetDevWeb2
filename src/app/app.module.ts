@@ -84,6 +84,7 @@ import { NavbarPromotionComponent } from './Article-promotion/navbar-promotion/n
     
     
     
+    
   ],
   imports: [
     BrowserModule,
