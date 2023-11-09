@@ -7,4 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'ProjetDevWeb2';
+  cheminImage:any = "url/vers/mon/image.jpg";
 }

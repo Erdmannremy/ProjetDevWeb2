@@ -12,7 +12,7 @@ import { HomeComponent } from './PageAccueil/home/home.component';
 import { CategorieHommeComponent } from './Homme/categorie-homme/categorie-homme.component';
 import { CategorieFemmeComponent } from './Femme/categorie-femme/categorie-femme.component';
 import { CategorieEnfantComponent } from './Enfant/categorie-enfant/categorie-enfant.component';
-import { ImagesComponent } from './images/images.component';
+
 import { InscriptionComponent } from './inscription/inscription.component';
 import { ConnexionComponent } from './connexion/connexion.component';
 import { SuppressionComponent } from './suppression/suppression.component';
@@ -35,6 +35,8 @@ import { ChemiseEnfantComponent } from './Enfant/chemise-enfant/chemise-enfant.c
 import { PullEnfantComponent } from './Enfant/pull-enfant/pull-enfant.component';
 import { TeeShirtEnfantComponent } from './Enfant/tee-shirt-enfant/tee-shirt-enfant.component';
 import { PantalonEnfantComponent } from './Enfant/pantalon-enfant/pantalon-enfant.component';
+import { PromotionComponent } from './Article-promotion/promotion/promotion.component';
+import { NavbarPromotionComponent } from './Article-promotion/navbar-promotion/navbar-promotion.component';
 
 
 
@@ -53,7 +55,7 @@ import { PantalonEnfantComponent } from './Enfant/pantalon-enfant/pantalon-enfan
     CategorieHommeComponent,
     CategorieFemmeComponent,
     CategorieEnfantComponent,
-    ImagesComponent,
+    
     InscriptionComponent,
     ConnexionComponent,
     SuppressionComponent,
@@ -77,6 +79,8 @@ import { PantalonEnfantComponent } from './Enfant/pantalon-enfant/pantalon-enfan
     PullEnfantComponent,
     TeeShirtEnfantComponent,
     PantalonEnfantComponent,
+    PromotionComponent,
+    NavbarPromotionComponent,
     
     
     

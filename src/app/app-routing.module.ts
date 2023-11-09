@@ -22,6 +22,9 @@ import { PullFemmeComponent } from './Femme/pull-femme/pull-femme.component';
 import { TeeShirtFemmeComponent } from './Femme/tee-shirt-femme/tee-shirt-femme.component';
 import { ChemiseFemmeComponent } from './Femme/chemise-femme/chemise-femme.component';
 import { PantalonFemmeComponent } from './Femme/pantalon-femme/pantalon-femme.component';
+import { PromotionComponent } from './Article-promotion/promotion/promotion.component';
+
+
 
 const routes: Routes = [
   {path: '',redirectTo: 'home', pathMatch: 'full'},
@@ -44,6 +47,7 @@ const routes: Routes = [
    {path:'tee-shirt-femme',component:TeeShirtFemmeComponent},
    {path:'chemise-femme',component:ChemiseFemmeComponent},
    {path:'pantalon-femme',component:PantalonFemmeComponent}]},
+   {path:'promotion',component:PromotionComponent},
   
   
   
