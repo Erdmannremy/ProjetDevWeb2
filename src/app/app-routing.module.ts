@@ -23,6 +23,9 @@ import { TeeShirtFemmeComponent } from './Femme/tee-shirt-femme/tee-shirt-femme.
 import { ChemiseFemmeComponent } from './Femme/chemise-femme/chemise-femme.component';
 import { PantalonFemmeComponent } from './Femme/pantalon-femme/pantalon-femme.component';
 import { PromotionComponent } from './Article-promotion/promotion/promotion.component';
+import { PromotionHommeComponent } from './Article-promotion/promotion-homme/promotion-homme.component';
+import { PromotionFemmeComponent } from './Article-promotion/promotion-femme/promotion-femme.component';
+import { PromotionEnfantComponent } from './Article-promotion/promotion-enfant/promotion-enfant.component';
 
 
 
@@ -47,11 +50,12 @@ const routes: Routes = [
    {path:'tee-shirt-femme',component:TeeShirtFemmeComponent},
    {path:'chemise-femme',component:ChemiseFemmeComponent},
    {path:'pantalon-femme',component:PantalonFemmeComponent}]},
-   {path:'promotion',component:PromotionComponent},
+   {path:'promotion',component:PromotionComponent,children:[
+   {path:'promotion-homme',component:PromotionHommeComponent},
+   {path:'promotion-femme',component:PromotionFemmeComponent},
+   {path:'promotion-enfant',component:PromotionEnfantComponent},
+   ]},
    
-  
-  
-  
   
   {path: 'inscription', component: InscriptionComponent},
   {path: 'connexion', component: ConnexionComponent},

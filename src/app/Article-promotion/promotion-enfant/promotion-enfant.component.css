@@ -1,4 +1,4 @@
-h2 {
+ h2 {
     
     text-align: center;
 
@@ -16,6 +16,7 @@ h2 {
   }
   
   div.gallery img {
+    border-radius: 25px; /*arondi les bords des photos*/
     width: 100%;
     height: auto;
   }

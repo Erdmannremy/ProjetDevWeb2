@@ -37,6 +37,9 @@ import { TeeShirtEnfantComponent } from './Enfant/tee-shirt-enfant/tee-shirt-enf
 import { PantalonEnfantComponent } from './Enfant/pantalon-enfant/pantalon-enfant.component';
 import { PromotionComponent } from './Article-promotion/promotion/promotion.component';
 import { NavbarPromotionComponent } from './Article-promotion/navbar-promotion/navbar-promotion.component';
+import { PromotionHommeComponent } from './Article-promotion/promotion-homme/promotion-homme.component';
+import { PromotionFemmeComponent } from './Article-promotion/promotion-femme/promotion-femme.component';
+import { PromotionEnfantComponent } from './Article-promotion/promotion-enfant/promotion-enfant.component';
 
 
 
@@ -81,6 +84,9 @@ import { NavbarPromotionComponent } from './Article-promotion/navbar-promotion/n
     PantalonEnfantComponent,
     PromotionComponent,
     NavbarPromotionComponent,
+    PromotionHommeComponent,
+    PromotionFemmeComponent,
+    PromotionEnfantComponent,
     
     
     

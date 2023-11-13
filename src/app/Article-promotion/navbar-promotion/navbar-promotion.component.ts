@@ -6,5 +6,17 @@ import { Component } from '@angular/core';
   styleUrls: ['./navbar-promotion.component.css']
 })
 export class NavbarPromotionComponent {
+   
+    isNavOpen = false;
+    isDropdownOpen = false;
+  
+    toggleNav() {
+      this.isNavOpen = !this.isNavOpen;
+    }
+  
+    toggleDropdown() {
+      this.isDropdownOpen = !this.isDropdownOpen;
+    }
+  }
 
-}
+

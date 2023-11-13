@@ -3,8 +3,8 @@ h2 {
     text-align: center;
 
  }
- 
- div.gallery {
+
+div.gallery {
     margin: 5px;
     border: 1px solid #ccc;
     float: left;
@@ -16,6 +16,7 @@ h2 {
   }
   
   div.gallery img {
+    border-radius: 25px; /*arondi les bords des photos*/
     width: 100%;
     height: auto;
   }

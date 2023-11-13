@@ -1,15 +1,20 @@
-<main>
+
 
     <div class="navbarpromotion">
-        <nav>
-        <ul>
-            <a routerLink="veste">Vestes</a><br>
-            <a routerLink="homme">pulls</a><br>
-            <a routerLink="homme">tee-shirt</a><br>
-            <a routerLink="chemise-homme">Chemises</a><br>
-            <a routerLink="pantalon-homme">Pantalons</a>
-        </ul>
-        </nav>
+        
+<nav class="navbar">
+    
+     <div class="dropdown" (click)="toggleDropdown()">
+        <span>--Choix Catégorie--</span>
+        <div class="dropdown-content" [class.show]="isDropdownOpen">
+          <a routerLink="promotion-homme">homme</a>
+          <a routerLink="promotion-femme">femme</a>
+          <a routerLink="promotion-enfant">enfant</a>
         </div>
+      </div>
+      
+  </nav>
+  
 
-</main>
+
+  
