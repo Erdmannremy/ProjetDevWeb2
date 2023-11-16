@@ -1,0 +1,9 @@
+/* Styles pour les liens au survol (hover) */
+nav a:hover {
+	color:orange; /* Couleur différente au survol */
+  }
+
+  .navbarpagehome {
+       padding:1px;                  /* Espace intérieur */
+       background-color: rgb(91, 149, 235);
+    }
