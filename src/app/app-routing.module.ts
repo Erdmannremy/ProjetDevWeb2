@@ -45,7 +45,7 @@ const routes: Routes = [
    {path:'chemise-enfant',component:ChemiseEnfantComponent},
    {path:'pantalon-enfant',component:PantalonEnfantComponent}]},
    {path: 'categorie-femme',component:CategorieFemmeComponent,children:[
-   {path:'veste-femme',component:VesteFemmeComponent},
+   {path: 'veste-femme',component:VesteFemmeComponent},
    {path:'pull-femme',component:PullFemmeComponent},
    {path:'tee-shirt-femme',component:TeeShirtFemmeComponent},
    {path:'chemise-femme',component:ChemiseFemmeComponent},
