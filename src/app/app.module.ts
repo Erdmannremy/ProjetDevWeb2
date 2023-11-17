@@ -9,10 +9,6 @@ import { DirectivesComponent } from './directives/directives.component';
 import { PipesComponent } from './pipes/pipes.component';
 import { NavbarComponent } from './PageAccueil/home/navbar/navbar.component';
 import { HomeComponent } from './PageAccueil/home/home.component';
-/*import { CategorieHommeComponent } from './Homme/categorie-homme/categorie-homme.component';*/
-import { CategorieFemmeComponent } from './Femme/categorie-femme/categorie-femme.component';
-import { CategorieEnfantComponent } from './Enfant/categorie-enfant/categorie-enfant.component';
-
 import { InscriptionComponent } from './inscription/inscription.component';
 import { ConnexionComponent } from './connexion/connexion.component';
 import { SuppressionComponent } from './suppression/suppression.component';
@@ -56,10 +52,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     PipesComponent,
     NavbarComponent,
     HomeComponent,
-   /* CategorieHommeComponent,*/
-    CategorieFemmeComponent,
-    CategorieEnfantComponent,
-    
+   
     InscriptionComponent,
     ConnexionComponent,
     SuppressionComponent,

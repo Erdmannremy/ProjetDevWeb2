@@ -1,9 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './PageAccueil/home/home.component';
-/*import { CategorieHommeComponent } from './Homme/categorie-homme/categorie-homme.component';*/
-import { CategorieFemmeComponent } from './Femme/categorie-femme/categorie-femme.component';
-import { CategorieEnfantComponent } from './Enfant/categorie-enfant/categorie-enfant.component';
 import { VesteHommeComponent } from './Homme/veste-homme/veste-homme.component';
 import { PullHommeComponent } from './Homme/pull-homme/pull-homme.component';
 import { TeeShirtHommeComponent } from './Homme/tee-shirt-homme/tee-shirt-homme.component';
@@ -22,7 +19,7 @@ import { PullFemmeComponent } from './Femme/pull-femme/pull-femme.component';
 import { TeeShirtFemmeComponent } from './Femme/tee-shirt-femme/tee-shirt-femme.component';
 import { ChemiseFemmeComponent } from './Femme/chemise-femme/chemise-femme.component';
 import { PantalonFemmeComponent } from './Femme/pantalon-femme/pantalon-femme.component';
-import { PromotionComponent } from './Article-promotion/promotion/promotion.component';
+/*import { PromotionComponent } from './Article-promotion/promotion/promotion.component';*/
 import { PromotionHommeComponent } from './Article-promotion/promotion-homme/promotion-homme.component';
 import { PromotionFemmeComponent } from './Article-promotion/promotion-femme/promotion-femme.component';
 import { PromotionEnfantComponent } from './Article-promotion/promotion-enfant/promotion-enfant.component';
@@ -36,20 +33,17 @@ const routes: Routes = [
    {path:'pull-homme',component:PullHommeComponent},
    {path:'tee-shirt-homme',component:TeeShirtHommeComponent},
    {path:'chemise-homme',component:ChemiseHommeComponent },
-   {path:'pantalon-homme',component:PantalonHommeComponent},]},
-   {path: 'categorie-enfant',component:CategorieEnfantComponent,children:[
+   {path:'pantalon-homme',component:PantalonHommeComponent},
    {path:'veste-enfant',component:VesteEnfantComponent},
    {path:'pull-enfant',component:PullEnfantComponent},
    {path:'tee-shirt-enfant',component:TeeShirtEnfantComponent},
    {path:'chemise-enfant',component:ChemiseEnfantComponent},
-   {path:'pantalon-enfant',component:PantalonEnfantComponent}]},
-   {path: 'categorie-femme',component:CategorieFemmeComponent,children:[
+   {path:'pantalon-enfant',component:PantalonEnfantComponent},
    {path: 'veste-femme',component:VesteFemmeComponent},
    {path:'pull-femme',component:PullFemmeComponent},
    {path:'tee-shirt-femme',component:TeeShirtFemmeComponent},
    {path:'chemise-femme',component:ChemiseFemmeComponent},
-   {path:'pantalon-femme',component:PantalonFemmeComponent}]},
-   {path:'promotion',component:PromotionComponent,children:[
+   {path:'pantalon-femme',component:PantalonFemmeComponent},
    {path:'promotion-homme',component:PromotionHommeComponent},
    {path:'promotion-femme',component:PromotionFemmeComponent},
    {path:'promotion-enfant',component:PromotionEnfantComponent},
