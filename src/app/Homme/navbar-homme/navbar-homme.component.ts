@@ -5,6 +5,10 @@ import { Component } from '@angular/core';
   templateUrl: './navbar-homme.component.html',
   styleUrls: ['./navbar-homme.component.css']
 })
+
+
+
+
 export class NavbarHommeComponent {
 
 }

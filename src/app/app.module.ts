@@ -40,6 +40,7 @@ import { NavbarPromotionComponent } from './Article-promotion/navbar-promotion/n
 import { PromotionHommeComponent } from './Article-promotion/promotion-homme/promotion-homme.component';
 import { PromotionFemmeComponent } from './Article-promotion/promotion-femme/promotion-femme.component';
 import { PromotionEnfantComponent } from './Article-promotion/promotion-enfant/promotion-enfant.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 
 
@@ -94,7 +95,8 @@ import { PromotionEnfantComponent } from './Article-promotion/promotion-enfant/p
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
