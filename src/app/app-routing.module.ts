@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './PageAccueil/home/home.component';
-import { CategorieHommeComponent } from './Homme/categorie-homme/categorie-homme.component';
+/*import { CategorieHommeComponent } from './Homme/categorie-homme/categorie-homme.component';*/
 import { CategorieFemmeComponent } from './Femme/categorie-femme/categorie-femme.component';
 import { CategorieEnfantComponent } from './Enfant/categorie-enfant/categorie-enfant.component';
 import { VesteHommeComponent } from './Homme/veste-homme/veste-homme.component';
@@ -31,8 +31,7 @@ import { PromotionEnfantComponent } from './Article-promotion/promotion-enfant/p
 
 const routes: Routes = [
   {path: '',redirectTo: 'home', pathMatch: 'full'},
-  {path: 'home',component:HomeComponent},
-  {path: 'categorie-homme',component:CategorieHommeComponent,children:[
+  {path: 'home',component:HomeComponent,children:[
    {path:'veste-homme',component:VesteHommeComponent},
    {path:'pull-homme',component:PullHommeComponent},
    {path:'tee-shirt-homme',component:TeeShirtHommeComponent},

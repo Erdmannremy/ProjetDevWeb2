@@ -1,31 +1,69 @@
 /* Style de base pour la barre de navigation */
-nav {
+/*/*nav {
 	background-color: rgb(91, 149, 235); /* Couleur de fond de la barre de navigation */
-	color: #fff; /* Couleur du texte */
-	padding: 30px; /* Espace intérieur */
-  }
+	/*color: #fff; /* Couleur du texte */
+	/*padding: 30px; /* Espace intérieur */
+  /*}
   
   /* Styles pour la liste non ordonnée (ul) dans la barre de navigation */
-  nav ul {
-	list-style: none; /* Supprime les puces de la liste */
-	padding: 0;
-	margin: 0;
-	display: flex; /* Affiche les éléments en ligne */
-	justify-content: center; /* Centre les éléments horizontalement */
-  }
+  /*nav ul {
+	/*list-style: none; /* Supprime les puces de la liste */
+	/*padding: 0;
+	/*margin: 0;
+	/*display: flex; /* Affiche les éléments en ligne */
+	/*justify-content: center; /* Centre les éléments horizontalement */
+  /*}
   
   /* Styles pour les liens (ancre) dans la barre de navigation */
-  nav a {
-	font-size:large;
-	text-decoration: none; /* Supprime le soulignement par défaut des liens */
-	color: #fff; /* Couleur du texte des liens */
-	margin: 0 60px; /* Marge entre les liens */
-	font-weight: bold; /* Texte en gras */
-	transition: color 0.2s; /* Transition de couleur lors du survol */
-  }
+ /* nav a {
+	/*font-size:large;
+	/*text-decoration: none; /* Supprime le soulignement par défaut des liens */
+	/*color: #fff; /* Couleur du texte des liens */
+	/*margin: 0 60px; /* Marge entre les liens */
+	/*font-weight: bold; /* Texte en gras */
+	/*transition: color 0.2s; /* Transition de couleur lors du survol */
+  /*}
   
   /* Styles pour les liens au survol (hover) */
-  nav a:hover {
+  /*nav a:hover {
 	color:orange; /* Couleur différente au survol */
+ /* }
+  /* style du bouton */
+.menu-deroulant {
+	background-color: #4CAF50; /* vert */
+	color: white;
+	padding: 16px;
+	font-size: 16px;
   }
   
+  /* On positionne (en relatif) le conteneur du menu déroulant 
+	pour pouvoir positionner le contenu de la liste juste 
+	en dessous du span */
+  .menu-deroulant {
+	position: relative;
+	display: inline-block;
+  }
+  
+  /* Contenu déroulant (caché par défaut) 
+	 et positionné par rapport au conteneur */
+  .menu-deroulant div {
+	display: none; /* caché */
+	position: absolute;
+	background-color: #f9f9f9; /* gris pale */
+	min-width: 160px; 
+	z-index: 1; /* en avant */
+  }
+  
+  /* Les liens du menu déroulant */
+  div a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none; /* on enlève le surlignement */
+	display: block; /* on les affiche */
+  }
+  
+  /* Au survol du menu, on affiche le contenu déroulant (qui était caché) */
+  .menu-deroulant:hover div {
+	display: block;
+    color: orange;
+}
