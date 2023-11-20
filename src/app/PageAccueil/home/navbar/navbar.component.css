@@ -4,6 +4,7 @@
 	color: #fff; /* Couleur du texte */
 	padding: 30px; /* Espace intérieur */
 	margin: 0;
+    border-radius: 30px; /*arrondir les bords* du padding */
   }
  
   
