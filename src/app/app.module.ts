@@ -37,7 +37,7 @@ import { PromotionHommeComponent } from './Article-promotion/promotion-homme/pro
 import { PromotionFemmeComponent } from './Article-promotion/promotion-femme/promotion-femme.component';
 import { PromotionEnfantComponent } from './Article-promotion/promotion-enfant/promotion-enfant.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-
+import { CategorieHommeComponent } from './Homme/categorie-homme/categorie-homme.component';
 
 
 
@@ -81,6 +81,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     PromotionHommeComponent,
     PromotionFemmeComponent,
     PromotionEnfantComponent,
+    CategorieHommeComponent,
     
     
     

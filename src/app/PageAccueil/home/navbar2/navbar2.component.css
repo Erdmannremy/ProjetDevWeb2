@@ -12,6 +12,8 @@ nav a {
 
 
 .navbarpagehome {
+    
     padding:1px;                  /* Espace intérieur */
+    margin: 0;
     background-color: rgb(91, 149, 235);
 }

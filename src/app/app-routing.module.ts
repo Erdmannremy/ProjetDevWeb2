@@ -23,17 +23,19 @@ import { PantalonFemmeComponent } from './Femme/pantalon-femme/pantalon-femme.co
 import { PromotionHommeComponent } from './Article-promotion/promotion-homme/promotion-homme.component';
 import { PromotionFemmeComponent } from './Article-promotion/promotion-femme/promotion-femme.component';
 import { PromotionEnfantComponent } from './Article-promotion/promotion-enfant/promotion-enfant.component';
+import { CategorieHommeComponent } from './Homme/categorie-homme/categorie-homme.component';
 
 
 
 const routes: Routes = [
   {path: '',redirectTo: 'home', pathMatch: 'full'},
-  {path: 'home',component:HomeComponent,children:[
+  {path: 'home',component:HomeComponent},
+  {path:'categorie-homme',component: CategorieHommeComponent, children:[
    {path:'veste-homme',component:VesteHommeComponent},
    {path:'pull-homme',component:PullHommeComponent},
    {path:'tee-shirt-homme',component:TeeShirtHommeComponent},
    {path:'chemise-homme',component:ChemiseHommeComponent },
-   {path:'pantalon-homme',component:PantalonHommeComponent},
+   {path:'pantalon-homme',component:PantalonHommeComponent}]},
    {path:'veste-enfant',component:VesteEnfantComponent},
    {path:'pull-enfant',component:PullEnfantComponent},
    {path:'tee-shirt-enfant',component:TeeShirtEnfantComponent},
@@ -47,12 +49,12 @@ const routes: Routes = [
    {path:'promotion-homme',component:PromotionHommeComponent},
    {path:'promotion-femme',component:PromotionFemmeComponent},
    {path:'promotion-enfant',component:PromotionEnfantComponent},
-   ]},
+   
    
   
   {path: 'inscription', component: InscriptionComponent},
   {path: 'connexion', component: ConnexionComponent},
-  {path: 'suppression', component: SuppressionComponent }
+  {path: 'suppression', component: SuppressionComponent}
   
 ];
 

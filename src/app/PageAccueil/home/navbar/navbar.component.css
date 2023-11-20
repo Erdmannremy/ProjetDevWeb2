@@ -1,9 +1,12 @@
 /* Style de base pour la barre de navigation */
-.navbarhome {
+.navbarhome  {
 	background-color: rgb(91, 149, 235); /* Couleur de fond de la barre de navigation */
 	color: #fff; /* Couleur du texte */
 	padding: 30px; /* Espace intérieur */
+	margin: 0;
   }
+ 
+  
   
   /* Styles pour la liste non ordonnée (ul) dans la barre de navigation */
   div {
@@ -46,7 +49,7 @@
   
   /* Contenu déroulant (caché par défaut) 
 	 et positionné par rapport au conteneur */
-  .menu-deroulant div  {
+  .menu-deroulant div {
 	display: none; /* caché */
 	position: absolute;
 	background-color: #f9f9f9; /* gris pale */
