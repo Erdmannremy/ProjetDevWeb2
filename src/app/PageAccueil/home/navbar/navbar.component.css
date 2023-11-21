@@ -1,16 +1,24 @@
 /* Style de base pour la barre de navigation */
-.navbarhome  {
+
+  
+
+
+  
+
+
+  
+.navbarhome {
 	background-color: rgb(91, 149, 235); /* Couleur de fond de la barre de navigation */
 	color: #fff; /* Couleur du texte */
 	padding: 30px; /* Espace intérieur */
 	margin: 0;
-    border-radius: 30px; /*arrondir les bords* du padding */
+    /*border-radius: 30px; /*arrondir les bords* du padding */
   }
  
   
   
   /* Styles pour la liste non ordonnée (ul) dans la barre de navigation */
-  div , span {
+  div  {
 	list-style: none; /* Supprime les puces de la liste */
     padding: 0;
     margin: 0;
@@ -19,7 +27,7 @@
  }
   
   /* Styles pour les liens (ancre) dans la barre de navigation */
- span , div {
+ div,span  {
 	font-size:large;
 	text-decoration: none; /* Supprime le soulignement par défaut des liens */
 	color: #fff; /* Couleur du texte des liens */
@@ -29,7 +37,7 @@
 }
   
   /* Styles pour les liens au survol (hover) */
-  div a:hover {
+  div , a:hover {
 	color:orange; /* Couleur différente au survol */
   }
   /* style du bouton */
