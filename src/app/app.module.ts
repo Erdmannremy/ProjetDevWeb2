@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
+import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ProductListComponent } from './product-list/product-list.component';
@@ -13,14 +13,11 @@ import { InscriptionComponent } from './inscription/inscription.component';
 import { ConnexionComponent } from './connexion/connexion.component';
 import { SuppressionComponent } from './suppression/suppression.component';
 import { Navbar2Component } from './PageAccueil/home/navbar2/navbar2.component';
-import { NavbarHommeComponent } from './Homme/navbar-homme/navbar-homme.component';
 import { VesteHommeComponent } from './Homme/veste-homme/veste-homme.component';
 import { PullHommeComponent } from './Homme/pull-homme/pull-homme.component';
 import { TeeShirtHommeComponent } from './Homme/tee-shirt-homme/tee-shirt-homme.component';
 import { ChemiseHommeComponent } from './Homme/chemise-homme/chemise-homme.component';
 import { PantalonHommeComponent } from './Homme/pantalon-homme/pantalon-homme.component';
-import { NavbarFemmeComponent } from './Femme/navbar-femme/navbar-femme.component';
-import { NavbarEnfantComponent } from './Enfant/navbar-enfant/navbar-enfant.component';
 import { VesteFemmeComponent } from './Femme/veste-femme/veste-femme.component';
 import { ChemiseFemmeComponent } from './Femme/chemise-femme/chemise-femme.component';
 import { PullFemmeComponent } from './Femme/pull-femme/pull-femme.component';
@@ -31,8 +28,6 @@ import { ChemiseEnfantComponent } from './Enfant/chemise-enfant/chemise-enfant.c
 import { PullEnfantComponent } from './Enfant/pull-enfant/pull-enfant.component';
 import { TeeShirtEnfantComponent } from './Enfant/tee-shirt-enfant/tee-shirt-enfant.component';
 import { PantalonEnfantComponent } from './Enfant/pantalon-enfant/pantalon-enfant.component';
-import { PromotionComponent } from './Article-promotion/promotion/promotion.component';
-import { NavbarPromotionComponent } from './Article-promotion/navbar-promotion/navbar-promotion.component';
 import { PromotionHommeComponent } from './Article-promotion/promotion-homme/promotion-homme.component';
 import { PromotionFemmeComponent } from './Article-promotion/promotion-femme/promotion-femme.component';
 import { PromotionEnfantComponent } from './Article-promotion/promotion-enfant/promotion-enfant.component';
@@ -61,11 +56,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     VesteHommeComponent,
     PullHommeComponent,
     TeeShirtHommeComponent,
-    NavbarHommeComponent,
     ChemiseHommeComponent,
     PantalonHommeComponent,
-    NavbarFemmeComponent,
-    NavbarEnfantComponent,
     VesteFemmeComponent,
     ChemiseFemmeComponent,
     PullFemmeComponent,
@@ -76,8 +68,6 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     PullEnfantComponent,
     TeeShirtEnfantComponent,
     PantalonEnfantComponent,
-    PromotionComponent,
-    NavbarPromotionComponent,
     PromotionHommeComponent,
     PromotionFemmeComponent,
     PromotionEnfantComponent,
@@ -90,7 +80,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    MatSlideToggleModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,19 +1,49 @@
-/* Styles pour les liens au survol (hover) */
-nav a:hover {
-	color:orange; /* Couleur différente au survol */
+/* Style de base pour la barre de navigation */
+.navbarhome  {
+	background-color: rgb(91, 149, 235); /* Couleur de fond de la barre de navigation */
+	color: #fff; /* Couleur du texte */
+	padding: 0px; /* Espace intérieur */
+	margin: 0;
     
-}
-nav a {
-
-    color: #fff;
-    text-decoration: none; /* Supprime le soulignement par défaut des liens */
-    font-weight: bold; /* Texte en gras */
-}
-
-
-.navbarpagehome {
-    
-    padding:1px;                  /* Espace intérieur */
+  }
+ 
+  
+  
+  /* Styles pour la liste non ordonnée (ul) dans la barre de navigation */
+  div {
+	list-style: none; /* Supprime les puces de la liste */
+    padding: 0;
     margin: 0;
-    background-color: rgb(91, 149, 235);
+    display: flex; /* Affiche les éléments en ligne */
+    justify-content:left; /* Centre les éléments horizontalement */
+ }
+  
+  /* Styles pour les liens (ancre) dans la barre de navigation */
+  div  {
+	font-size:large;
+	text-decoration: none; /* Supprime le soulignement par défaut des liens */
+	color: #fff; /* Couleur du texte des liens */
+	margin: 0 60px; /* Marge entre les liens */
+	font-weight: bold; /* Texte en gras */
+	transition: color 0.2s; /* Transition de couleur lors du survol */
 }
+  
+  /* Styles pour les liens au survol (hover) */
+  div a:hover {
+	color:orange; /* Couleur différente au survol */
+  }
+  /* style du bouton */
+  .navbarhome  {
+	
+	color: white;
+	padding: 16px;
+	font-size: 16px;
+  }
+  
+  
+  
+  
+  
+  
+  
+  

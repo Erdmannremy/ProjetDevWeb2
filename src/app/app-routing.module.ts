@@ -48,12 +48,9 @@ const routes: Routes = [
    {path:'promotion-homme',component:PromotionHommeComponent},
    {path:'promotion-femme',component:PromotionFemmeComponent},
    {path:'promotion-enfant',component:PromotionEnfantComponent},
-   
-   
-  
-  {path: 'inscription', component: InscriptionComponent},
-  {path: 'connexion', component: ConnexionComponent},
-  {path: 'suppression', component: SuppressionComponent}
+   {path: 'inscription', component: InscriptionComponent},
+   {path: 'connexion', component: ConnexionComponent},
+   {path: 'suppression', component: SuppressionComponent}
   
 ];
 

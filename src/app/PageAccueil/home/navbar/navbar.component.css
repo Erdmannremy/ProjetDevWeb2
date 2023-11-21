@@ -10,7 +10,7 @@
   
   
   /* Styles pour la liste non ordonnée (ul) dans la barre de navigation */
-  div {
+  div , span {
 	list-style: none; /* Supprime les puces de la liste */
     padding: 0;
     margin: 0;
@@ -19,7 +19,7 @@
  }
   
   /* Styles pour les liens (ancre) dans la barre de navigation */
-  div  {
+ span , div {
 	font-size:large;
 	text-decoration: none; /* Supprime le soulignement par défaut des liens */
 	color: #fff; /* Couleur du texte des liens */
