@@ -19,7 +19,6 @@ import { PullFemmeComponent } from './Femme/pull-femme/pull-femme.component';
 import { TeeShirtFemmeComponent } from './Femme/tee-shirt-femme/tee-shirt-femme.component';
 import { ChemiseFemmeComponent } from './Femme/chemise-femme/chemise-femme.component';
 import { PantalonFemmeComponent } from './Femme/pantalon-femme/pantalon-femme.component';
-/*import { PromotionComponent } from './Article-promotion/promotion/promotion.component';*/
 import { PromotionHommeComponent } from './Article-promotion/promotion-homme/promotion-homme.component';
 import { PromotionFemmeComponent } from './Article-promotion/promotion-femme/promotion-femme.component';
 import { PromotionEnfantComponent } from './Article-promotion/promotion-enfant/promotion-enfant.component';
