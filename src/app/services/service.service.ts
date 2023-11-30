@@ -19,4 +19,12 @@ export class ServiceService {
   getOneArticle (id: any) {
     return this._http.get(`http://localhost:8080/api/articles/${id}`);
   }
+ 
+ 
+  getDetailArticle (id: any) {
+    return this._http.get('');
+  }
+
+
 }
+
