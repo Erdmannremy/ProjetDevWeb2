@@ -10,7 +10,7 @@
 .navbarhome {
 	background-color: rgb(91, 149, 235); /* Couleur de fond de la barre de navigation */
 	color: #fff; /* Couleur du texte */
-	padding: 30px; /* Espace intérieur */
+	padding: 10px; /* Espace intérieur */
 	margin: 0;
     /*border-radius: 30px; /*arrondir les bords* du padding */
   }
