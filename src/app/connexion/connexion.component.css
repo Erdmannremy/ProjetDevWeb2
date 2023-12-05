@@ -1,7 +1,7 @@
 .p {
     border-radius: 30px; /*arrondir les coins */
 }
-div,span  {
+a {
 	font-size:large;
 	text-decoration: none; /* Supprime le soulignement par défaut des liens */
 	color: #fff; /* Couleur du texte des liens */
@@ -15,7 +15,7 @@ div , a:hover {
 	color:orange; /* Couleur différente au survol */
   }
   /* style du bouton */
-.menu-deroulant  {
+.Menu-connexion  {
 	
 	color: white;
 	padding: 16px;
@@ -25,14 +25,14 @@ div , a:hover {
   /* On positionne (en relatif) le conteneur du menu déroulant 
 	pour pouvoir positionner le contenu de la liste juste 
 	en dessous du span */
-  .menu-deroulant {
+  .Menu-connexion {
 	position: relative;
 	display: inline-block;
   }
 
   /* Contenu déroulant (caché par défaut) 
-	 et positionné par rapport au conteneur */
-     .menu-deroulant div {
+	 et positionné par rapport au conteneur */     
+     .Menu-connexion div {
         display: none; /* caché */
         position: absolute;
         background-color: #f9f9f9; /* gris pale */
@@ -49,7 +49,7 @@ div , a:hover {
       }
       
       /* Au survol du menu, on affiche le contenu déroulant (qui était caché) */
-      .menu-deroulant:hover div  {
+      .Menu-connexion:hover div  {
         display: block;
         color: orange;
     }
