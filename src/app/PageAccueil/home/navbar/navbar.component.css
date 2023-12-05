@@ -61,6 +61,7 @@
   .menu-deroulant div {
 	display: none; /* caché */
 	position: absolute;
+	border-radius: 15px;
 	background-color: #f9f9f9; /* gris pale */
 	min-width: 90px; 
 	z-index: 2; /* en avant */
