@@ -97,7 +97,7 @@ div , a:hover {
 	color:orange; /* Couleur différente au survol */
   }
   /* style du bouton */
-.Menu-connexion  {
+.Menu-connexion-deroulant  {
 	
 	color: white;
 	padding: 16px;
