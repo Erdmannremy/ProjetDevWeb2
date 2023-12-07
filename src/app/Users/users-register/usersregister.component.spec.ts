@@ -20,6 +20,13 @@ const emailControl = new FormControl('',[
 
 ]);
 
+const birthDateControl = new FormControl ('',[
+    
+  Validators.required
+
+
+]);
+
 describe('UsersregisterComponent', () => {
   let component: UsersregisterComponent;
   let fixture: ComponentFixture<UsersregisterComponent>;

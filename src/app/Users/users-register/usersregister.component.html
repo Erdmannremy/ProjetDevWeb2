@@ -1,1 +1,19 @@
-<p>usersregister works!</p>
+<p>S'inscire</p>
+
+<br>
+
+
+<form [formGroup]="usersregister">
+
+
+    <label for="firstName">Nom</label> <br>
+<input type="text" id="firstName" formControlName="firstName" >
+
+<label for="LastName">Prénom</label>
+<input type="text" id="LastName" formControlName="LastName" >
+
+<label for="BirthDate">Date De Naissance</label>
+<input type="number" id="BirthDate" formControl="BirthDate" >
+
+
+</form>
