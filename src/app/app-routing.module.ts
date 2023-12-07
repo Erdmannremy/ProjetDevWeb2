@@ -5,9 +5,6 @@ import { VesteHommeComponent } from './Homme/veste-homme/veste-homme.component';
 import { PullHommeComponent } from './Homme/pull-homme/pull-homme.component';
 import { TeeShirtHommeComponent } from './Homme/tee-shirt-homme/tee-shirt-homme.component';
 import { ChemiseHommeComponent } from './Homme/chemise-homme/chemise-homme.component';
-import { InscriptionComponent } from './Users/inscription/inscription.component';
-import { ConnexionComponent } from './Users/connexion/connexion.component';
-import { SuppressionComponent } from './Users/suppression/suppression.component';
 import { PantalonHommeComponent } from './Homme/pantalon-homme/pantalon-homme.component';
 import { VesteEnfantComponent } from './Enfant/veste-enfant/veste-enfant.component';
 import { PullEnfantComponent } from './Enfant/pull-enfant/pull-enfant.component';
@@ -22,6 +19,9 @@ import { PantalonFemmeComponent } from './Femme/pantalon-femme/pantalon-femme.co
 import { PromotionHommeComponent } from './Article-promotion/promotion-homme/promotion-homme.component';
 import { PromotionFemmeComponent } from './Article-promotion/promotion-femme/promotion-femme.component';
 import { PromotionEnfantComponent } from './Article-promotion/promotion-enfant/promotion-enfant.component';
+import { UsersregisterComponent } from './Users/users-register/usersregister.component';
+import { UsersLoginComponent } from './Users/users-login/users-login.component';
+import { UsersDeleteComponent } from './Users/users-delete/users-delete.component';
 
 
 
@@ -39,7 +39,7 @@ const routes: Routes = [
    {path:'tee-shirt-enfant',component:TeeShirtEnfantComponent},
    {path:'chemise-enfant',component:ChemiseEnfantComponent},
    {path:'pantalon-enfant',component:PantalonEnfantComponent},
-   {path: 'veste-femme',component:VesteFemmeComponent},
+   {path:'veste-femme',component:VesteFemmeComponent},
    {path:'pull-femme',component:PullFemmeComponent},
    {path:'tee-shirt-femme',component:TeeShirtFemmeComponent},
    {path:'chemise-femme',component:ChemiseFemmeComponent},
@@ -47,10 +47,10 @@ const routes: Routes = [
    {path:'promotion-homme',component:PromotionHommeComponent},
    {path:'promotion-femme',component:PromotionFemmeComponent},
    {path:'promotion-enfant',component:PromotionEnfantComponent},
-   {path: 'inscription', component: InscriptionComponent},
-   {path: 'connexion', component: ConnexionComponent},
-   {path: 'suppression', component: SuppressionComponent}
-  
+   {path:'users-register',component:UsersregisterComponent},
+   {path:'users-login',component:UsersLoginComponent},
+   {path:'users-delete',component:UsersDeleteComponent},
+   
 ];
 
 @NgModule({

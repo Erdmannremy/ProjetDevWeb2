@@ -10,9 +10,7 @@ import { DirectivesComponent } from './directives/directives.component';
 import { PipesComponent } from './pipes/pipes.component';
 import { NavbarComponent } from './PageAccueil/home/navbar/navbar.component';
 import { HomeComponent } from './PageAccueil/home/home.component';
-import { InscriptionComponent } from './Users/inscription/inscription.component';
-import { ConnexionComponent } from './Users/connexion/connexion.component';
-import { SuppressionComponent } from './Users/suppression/suppression.component';
+
 import { Navbar2Component } from './PageAccueil/home/navbar2/navbar2.component';
 import { VesteHommeComponent } from './Homme/veste-homme/veste-homme.component';
 import { PullHommeComponent } from './Homme/pull-homme/pull-homme.component';
@@ -34,6 +32,9 @@ import { PromotionFemmeComponent } from './Article-promotion/promotion-femme/pro
 import { PromotionEnfantComponent } from './Article-promotion/promotion-enfant/promotion-enfant.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ReactiveFormsModule } from '@angular/forms';
+import { UsersregisterComponent } from './Users/users-register/usersregister.component';
+import { UsersLoginComponent } from './Users/users-login/users-login.component';
+import { UsersDeleteComponent } from './Users/users-delete/users-delete.component';
 
 
 
@@ -50,9 +51,7 @@ import { ReactiveFormsModule } from '@angular/forms';
     NavbarComponent,
     HomeComponent,
    
-    InscriptionComponent,
-    ConnexionComponent,
-    SuppressionComponent,
+    
     Navbar2Component,
    
     VesteHommeComponent,
@@ -73,6 +72,9 @@ import { ReactiveFormsModule } from '@angular/forms';
     PromotionHommeComponent,
     PromotionFemmeComponent,
     PromotionEnfantComponent,
+    UsersregisterComponent,
+    UsersLoginComponent,
+    UsersDeleteComponent,
    
     
     
