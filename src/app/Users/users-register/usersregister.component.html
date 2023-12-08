@@ -1,19 +1,25 @@
-<p>S'inscire</p>
+
+<form div ="conteneur">
+
+<h2>S'inscire</h2>
+
 
 <br>
 
+<form div = "form-group" >
+    
+    <form [formGroup]="UsersregisterComponent">
 
-<form [formGroup]="usersregister">
-
-
-    <label for="firstName">Nom</label> <br>
-<input type="text" id="firstName" formControlName="firstName" >
-
-<label for="LastName">Prénom</label>
-<input type="text" id="LastName" formControlName="LastName" >
-
-<label for="BirthDate">Date De Naissance</label>
-<input type="number" id="BirthDate" formControl="BirthDate" >
+        <label for="firstName">Nom</label> <br>
+            <input type="text" id="firstName" formControlName="firstName" >
+        <br>
+        <br>
+            <label for="LastName">Prénom</label>
+                <input type="text" id="LastName" formControlName="LastName" >
+        <br>
+        <br>
+                <label for="BirthDate">Date De Naissance</label>
+                    <input type="int" id="BirthDate"FormControl="BirthDate" >
 
 
 </form>

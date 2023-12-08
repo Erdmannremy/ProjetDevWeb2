@@ -2,7 +2,7 @@ import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { UsersregisterComponent } from './usersregister.component';
 
-import { FormControl,Validators } from '@angular/forms';
+import { FormControl,FormGroup,Validators } from '@angular/forms';
 
 const monchamp = new FormControl('',[
   Validators.required,      //verifier si le champ est vide
@@ -20,12 +20,17 @@ const emailControl = new FormControl('',[
 
 ]);
 
-const birthDateControl = new FormControl ('',[
-    
-  Validators.required
 
 
-]);
+ 
+
+
+
+
+
+
+
+
 
 describe('UsersregisterComponent', () => {
   let component: UsersregisterComponent;
