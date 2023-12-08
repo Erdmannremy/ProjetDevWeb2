@@ -1,25 +1,37 @@
 
-<form div ="conteneur">
-
-<h2>S'inscire</h2>
+<h2>Inscription</h2>
 
 
-<br>
-
-<form div = "form-group" >
-    
-    <form [formGroup]="UsersregisterComponent">
-
-        <label for="firstName">Nom</label> <br>
-            <input type="text" id="firstName" formControlName="firstName" >
-        <br>
-        <br>
-            <label for="LastName">Prénom</label>
-                <input type="text" id="LastName" formControlName="LastName" >
-        <br>
-        <br>
-                <label for="BirthDate">Date De Naissance</label>
-                    <input type="int" id="BirthDate"FormControl="BirthDate" >
-
-
-</form>
+<form [formGroup]="UsersregisterComponent" (ngSubmit)="onSubmit()">
+    <div class="form-group">
+      <label for="nom">Nom</label>
+      <input type="text" class="form-control" id="nom" formControlName="nom" required>
+    </div>
+  
+    <div class="form-group">
+      <label for="prenom">Prénom</label>
+      <input type="text" class="form-control" id="prenom" formControlName="prenom" required>
+    </div>
+  
+    <div class="form-group">
+      <label for="dateNaissance">Date de naissance</label>
+      <input type="date" class="form-control" id="dateNaissance" formControlName="dateNaissance" required>
+    </div>
+  
+    <div class="form-group">
+      <label for="motDePasse">Mot de passe</label>
+      <input type="password" class="form-control" id="motDePasse" formControlName="motDePasse" required>
+    </div>
+  
+    <div class="form-group">
+      <label for="pays">Pays</label>
+      <input type="text" class="form-control" id="pays" formControlName="pays" required>
+    </div>
+  
+    <div class="form-group">
+      <label for="adresse">Adresse</label>
+      <input type="text" class="form-control" id="adresse" formControlName="adresse" required>
+    </div>
+  
+    <button type="submit" class="btn btn-primary">S'inscrire</button>
+  </form>
