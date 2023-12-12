@@ -1,6 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { UsersregisterComponent } from './usersregister.component';
+import { UsersRegisterComponent } from './usersregister.component';
 
 import { FormControl,FormGroup,Validators } from '@angular/forms';
 
@@ -33,14 +33,14 @@ const emailControl = new FormControl('',[
 
 
 describe('UsersregisterComponent', () => {
-  let component: UsersregisterComponent;
-  let fixture: ComponentFixture<UsersregisterComponent>;
+  let component: UsersRegisterComponent;
+  let fixture: ComponentFixture<UsersRegisterComponent>;
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      declarations: [UsersregisterComponent]
+      declarations: [UsersRegisterComponent]
     });
-    fixture = TestBed.createComponent(UsersregisterComponent);
+    fixture = TestBed.createComponent(UsersRegisterComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

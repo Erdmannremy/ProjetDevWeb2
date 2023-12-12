@@ -19,7 +19,7 @@ import { PantalonFemmeComponent } from './Femme/pantalon-femme/pantalon-femme.co
 import { PromotionHommeComponent } from './Article-promotion/promotion-homme/promotion-homme.component';
 import { PromotionFemmeComponent } from './Article-promotion/promotion-femme/promotion-femme.component';
 import { PromotionEnfantComponent } from './Article-promotion/promotion-enfant/promotion-enfant.component';
-import { UsersregisterComponent } from './Users/users-register/usersregister.component';
+import { UsersRegisterComponent } from './Users/users-register/usersregister.component';
 import { UsersLoginComponent } from './Users/users-login/users-login.component';
 import { UsersDeleteComponent } from './Users/users-delete/users-delete.component';
 
@@ -47,7 +47,7 @@ const routes: Routes = [
    {path:'promotion-homme',component:PromotionHommeComponent},
    {path:'promotion-femme',component:PromotionFemmeComponent},
    {path:'promotion-enfant',component:PromotionEnfantComponent},
-   {path:'users-register',component:UsersregisterComponent},
+   {path:'users-register',component:UsersRegisterComponent},
    {path:'users-login',component:UsersLoginComponent},
    {path:'users-delete',component:UsersDeleteComponent},
    

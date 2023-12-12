@@ -1,4 +1,4 @@
-import { NgModule,FormGroup } from '@angular/core';
+import { NgModule,} from '@angular/core';
 import { HttpClientModule } from '@angular/common/http';
 import { BrowserModule } from '@angular/platform-browser';
 import { MatSlideToggleModule } from '@angular/material/slide-toggle';
@@ -31,8 +31,8 @@ import { PromotionHommeComponent } from './Article-promotion/promotion-homme/pro
 import { PromotionFemmeComponent } from './Article-promotion/promotion-femme/promotion-femme.component';
 import { PromotionEnfantComponent } from './Article-promotion/promotion-enfant/promotion-enfant.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { FormGroup, ReactiveFormsModule } from '@angular/forms';
-import { UsersregisterComponent } from './Users/users-register/usersregister.component';
+import { ReactiveFormsModule } from '@angular/forms';
+import { UsersRegisterComponent } from './Users/users-register/usersregister.component';
 import { UsersLoginComponent } from './Users/users-login/users-login.component';
 import { UsersDeleteComponent } from './Users/users-delete/users-delete.component';
 
@@ -72,15 +72,12 @@ import { UsersDeleteComponent } from './Users/users-delete/users-delete.componen
     PromotionHommeComponent,
     PromotionFemmeComponent,
     PromotionEnfantComponent,
-    UsersregisterComponent,
     UsersLoginComponent,
     UsersDeleteComponent,
+    UsersRegisterComponent,
    
     
-    
-    
-    
-  ],
+    ],
   imports: [
     BrowserModule,
     AppRoutingModule,
@@ -88,7 +85,8 @@ import { UsersDeleteComponent } from './Users/users-delete/users-delete.componen
     MatSlideToggleModule,
     ReactiveFormsModule,
     HttpClientModule,
-    FormGroup
+    
+   
   ],
   providers: [],
   bootstrap: [AppComponent]
