@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { FormGroup,FormControl, Validators, FormBuilder } from '@angular/forms';
 
 
@@ -21,11 +21,11 @@ export class UsersFormRegisterComponent {
         Validators.required,
         Validators.pattern(/^\d{4}-\d{2}-\d{2}$/),
         Validators.minLength(10),
-        Validators.maxLength(10)
+        Validators.maxLength(10),
+        
       ]),
       adresseEmail: new FormControl('',[Validators.required]), 
       motDePasse: new FormControl('', [Validators.required, Validators.minLength(8)]),
-
       pays: new FormControl('', [Validators.required]),
       adresse: new FormControl('', [Validators.required]),
     });
@@ -40,6 +40,9 @@ export class UsersFormRegisterComponent {
 
     // Handle successful form submission
     console.log('Form submitted successfully');
+
+    
+    
   }
 }
 
