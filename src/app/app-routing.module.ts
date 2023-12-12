@@ -19,10 +19,10 @@ import { PantalonFemmeComponent } from './Femme/pantalon-femme/pantalon-femme.co
 import { PromotionHommeComponent } from './Article-promotion/promotion-homme/promotion-homme.component';
 import { PromotionFemmeComponent } from './Article-promotion/promotion-femme/promotion-femme.component';
 import { PromotionEnfantComponent } from './Article-promotion/promotion-enfant/promotion-enfant.component';
-import { UsersRegisterComponent } from './Users/users-register/usersregister.component';
 import { UsersLoginComponent } from './Users/users-login/users-login.component';
 import { UsersDeleteComponent } from './Users/users-delete/users-delete.component';
 import { UsersLoginOutComponent } from './Users/users-login-out/users-login-out.component';
+import { UsersFormRegisterComponent } from './Users/users-form-register/users-form-register.component';
 
 
 
@@ -48,10 +48,10 @@ const routes: Routes = [
    {path:'promotion-homme',component:PromotionHommeComponent},
    {path:'promotion-femme',component:PromotionFemmeComponent},
    {path:'promotion-enfant',component:PromotionEnfantComponent},
-   {path:'users-register',component:UsersRegisterComponent},
    {path:'users-login',component:UsersLoginComponent},
    {path:'users-delete',component:UsersDeleteComponent},
    {path:'users-login-out',component:UsersLoginOutComponent},
+   {path:'users-form-register',component:UsersFormRegisterComponent},
 ];
 
 @NgModule({

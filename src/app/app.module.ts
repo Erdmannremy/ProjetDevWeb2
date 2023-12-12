@@ -32,10 +32,10 @@ import { PromotionFemmeComponent } from './Article-promotion/promotion-femme/pro
 import { PromotionEnfantComponent } from './Article-promotion/promotion-enfant/promotion-enfant.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ReactiveFormsModule } from '@angular/forms';
-import { UsersRegisterComponent } from './Users/users-register/usersregister.component';
 import { UsersLoginComponent } from './Users/users-login/users-login.component';
 import { UsersDeleteComponent } from './Users/users-delete/users-delete.component';
 import { UsersLoginOutComponent } from './Users/users-login-out/users-login-out.component';
+import { UsersFormRegisterComponent } from './Users/users-form-register/users-form-register.component';
 
 
 
@@ -75,8 +75,9 @@ import { UsersLoginOutComponent } from './Users/users-login-out/users-login-out.
     PromotionEnfantComponent,
     UsersLoginComponent,
     UsersDeleteComponent,
-    UsersRegisterComponent,
+    
     UsersLoginOutComponent,
+    UsersFormRegisterComponent,
    
     
     ],
@@ -88,9 +89,15 @@ import { UsersLoginOutComponent } from './Users/users-login-out/users-login-out.
     ReactiveFormsModule,
     HttpClientModule,
     
+    
    
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule { 
+
+   
+
+
+}

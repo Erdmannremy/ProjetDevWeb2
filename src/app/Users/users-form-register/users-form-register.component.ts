@@ -1,19 +1,20 @@
-import { Component, OnInit } from '@angular/core';
-import { FormGroup,FormControl, Validators } from '@angular/forms';
+import { Component } from '@angular/core';
+import { FormGroup,FormControl, Validators, FormBuilder } from '@angular/forms';
 
 
 @Component({
-  selector: 'app-usersregister',
-  templateUrl: './usersregister.component.html',
-  styleUrls: ['./usersregister.component.css'],
+  selector: 'app-users-form-register',
+  templateUrl: './users-form-register.component.html',
+  styleUrls: ['./users-form-register.component.css']
 })
-export class UsersRegisterComponent  {
+export class UsersFormRegisterComponent {
+
+
+  usersformregisterComponent: FormGroup;
    
-      usersregisterComponent: FormGroup;
    
-   
-   constructor (private formGroup:FormGroup ) {
-     this.usersregisterComponent = new FormGroup({
+   constructor ( private formGroup:FormBuilder ) {
+     this.usersformregisterComponent = new FormGroup({
       nom: new FormControl('', [Validators.required, Validators.minLength(3)]),
       prenom: new FormControl('', [Validators.required, Validators.minLength(3)]),
       dateNaissance: new FormControl('', [
@@ -29,7 +30,7 @@ export class UsersRegisterComponent  {
   }
 
   onSubmit() {
-    if (!this.usersregisterComponent.valid) {
+    if (!this.usersformregisterComponent.valid) {
       // Display validation errors
       console.error('Form is not valid');
       return;
@@ -39,3 +40,6 @@ export class UsersRegisterComponent  {
     console.log('Form submitted successfully');
   }
 }
+
+
+
