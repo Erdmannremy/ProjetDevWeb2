@@ -35,6 +35,7 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { UsersRegisterComponent } from './Users/users-register/usersregister.component';
 import { UsersLoginComponent } from './Users/users-login/users-login.component';
 import { UsersDeleteComponent } from './Users/users-delete/users-delete.component';
+import { UsersLoginOutComponent } from './Users/users-login-out/users-login-out.component';
 
 
 
@@ -75,6 +76,7 @@ import { UsersDeleteComponent } from './Users/users-delete/users-delete.componen
     UsersLoginComponent,
     UsersDeleteComponent,
     UsersRegisterComponent,
+    UsersLoginOutComponent,
    
     
     ],

@@ -22,6 +22,7 @@ import { PromotionEnfantComponent } from './Article-promotion/promotion-enfant/p
 import { UsersRegisterComponent } from './Users/users-register/usersregister.component';
 import { UsersLoginComponent } from './Users/users-login/users-login.component';
 import { UsersDeleteComponent } from './Users/users-delete/users-delete.component';
+import { UsersLoginOutComponent } from './Users/users-login-out/users-login-out.component';
 
 
 
@@ -50,7 +51,7 @@ const routes: Routes = [
    {path:'users-register',component:UsersRegisterComponent},
    {path:'users-login',component:UsersLoginComponent},
    {path:'users-delete',component:UsersDeleteComponent},
-   
+   {path:'users-login-out',component:UsersLoginOutComponent},
 ];
 
 @NgModule({
