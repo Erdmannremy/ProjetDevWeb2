@@ -23,7 +23,9 @@ export class UsersFormRegisterComponent {
         Validators.minLength(10),
         Validators.maxLength(10)
       ]),
+      adresseEmail: new FormControl('',[Validators.required]), 
       motDePasse: new FormControl('', [Validators.required, Validators.minLength(8)]),
+
       pays: new FormControl('', [Validators.required]),
       adresse: new FormControl('', [Validators.required]),
     });
