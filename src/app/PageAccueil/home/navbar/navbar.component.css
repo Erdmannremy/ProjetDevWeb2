@@ -137,6 +137,6 @@ div , a:hover {
       /* Au survol du menu, on affiche le contenu déroulant (qui était caché) */
       .Menu-connexion:hover div  {
         display: block;
-        color: orange;
+        color:orange;
     }
   
