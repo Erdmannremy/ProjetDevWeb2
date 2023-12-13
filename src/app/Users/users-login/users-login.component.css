@@ -1,0 +1,46 @@
+/* General styles for the form container */
+.login-form {
+    width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+  }
+  
+  /* Heading for the login form */
+  h2 {
+    text-align: center;
+    color: #007bff;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+   
+  
+
+  /* Label for each form input */
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  /* Form inputs (text fields, password field) */
+  .form-control {
+    width: 30%;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  /* Submit button with primary color */
+  .btn-primary {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
